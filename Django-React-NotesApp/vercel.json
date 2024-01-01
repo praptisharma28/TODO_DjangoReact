@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "frontend/",  // Adjust the path to your frontend code
+        "src": "frontend/",  
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "frontend/build"  // Adjust the path to your frontend build output
+          "distDir": "frontend/build"  
         }
       },
       {
-        "src": "backend/**",  // Adjust the path to your backend code
+        "src": "backend/**",  
         "use": "@vercel/python"
       }
     ],
