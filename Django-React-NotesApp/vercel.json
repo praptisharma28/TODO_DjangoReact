@@ -15,14 +15,12 @@
     ],
     "routes": [
       {
-        "src": "/api/(.*)",  // Adjust the path to your Django API endpoints
-        "dest": "backend/api/$1",  // Adjust the path to your Django API routes
-        "methods": ["GET", "POST", "PUT", "DELETE"]  // Adjust the allowed HTTP methods
-      },
+        "src": "/api/(.*)",  
+        "dest": "backend/api/$1",  
+        "methods": ["GET", "POST", "PUT", "DELETE"]  
       {
         "src": "/(.*)",
-        "dest": "frontend/build/$1"  // Adjust the path to your frontend build output
-      }
+        "dest": "frontend/build/$1" 
     ]
   }
   
