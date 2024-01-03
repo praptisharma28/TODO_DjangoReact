@@ -13,7 +13,8 @@
         "use": "@vercel/python"
       }
     ],
-    "routes": [
+    "routes": 
+    [
       {
         "src": "/api/(.*)",  
         "dest": "backend/api/$1",  
