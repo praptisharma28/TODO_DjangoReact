@@ -11,7 +11,7 @@ git clone https://github.com/praptisharma28/TODO_DjangoReact
 Move into the directory where we have the project files:
 
 ```bash
-cd Django-React-NotesApp
+cd TODO_DjangoReact\Django-React-NotesApp>
 ```
 
 Create a virtual environment:
