@@ -5,7 +5,7 @@
 Clone the repository using the command below:
 
 ```bash
-git clone https://github.com/divanov11/Django-React-NotesApp.git
+git clone https://github.com/praptisharma28/TODO_DjangoReact
 ```
 
 Move into the directory where we have the project files:
