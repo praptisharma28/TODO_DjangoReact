@@ -52,4 +52,20 @@ python manage.py runserver
 
 ⚠ Then, the development server will be started at http://127.0.0.1:8000/
 
+## Instruction for docker 
+```bash
+docker build . -t <image-name>
+```
+```bash
+docker run -p 8000:8000 <image-name>
+```
+## Creating superuser inside container
+```bash
+docker exec -it <container-id> /bin/bash
+```
+Inside the container
+```bash
+python manage.py createsuperuser
+```
+
 ---
