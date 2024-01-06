@@ -1,6 +1,16 @@
 asgiref==3.4.1
+dj-database-url==2.1.0
 Django==3.2.7
 django-cors-headers==3.8.0
 djangorestframework==3.12.4
+gunicorn==21.2.0
+insultgenerator==1.0.3
+loremipsum==1.0.5
+packaging==23.2
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
 pytz==2021.1
+six==1.16.0
 sqlparse==0.4.2
+typing_extensions==4.9.0
+whitenoise==6.6.0
